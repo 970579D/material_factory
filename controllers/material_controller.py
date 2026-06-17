@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from typing import List
 
-from constants.constants import MESSAGE_SUCCESS
+from constants.constants import API_PREFIX_MATERIALS, API_TAGS_MATERIALS, MESSAGE_SUCCESS
 from database import SessionLocal
 from models.response import BaseResponse
 from schemas.material import (
@@ -11,7 +11,7 @@ from schemas.material import (
 )
 from services.material_service import MaterialService
 
-router = APIRouter(prefix="/materials", tags=["Materials"])
+router = APIRouter(prefix=API_PREFIX_MATERIALS, tags=API_TAGS_MATERIALS)
 service = MaterialService()
 
 

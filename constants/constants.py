@@ -1,2 +1,8 @@
 MESSAGE_SUCCESS = "Success"
 MESSAGE_FAIL = "Fail"
+
+API_VERSION = "v1"
+API_PREFIX_MATERIALS = "/materials"
+API_TAGS_MATERIALS = ["Materials"]
+
+TABLE_MATERIALS = "materials"
