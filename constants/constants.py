@@ -1,0 +1,2 @@
+MESSAGE_SUCCESS = "Success"
+MESSAGE_FAIL = "Fail"
